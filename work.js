@@ -13,7 +13,6 @@ if (contentid == "a"){
     contentid = "a";
     document.getElementById("q1").innerHTML = "Can I draw differently?";
     document.getElementById("details1").innerHTML = "Yes! Drawing is a varied topic. Here are a few types of drawing methods. <br> <br>Illustration Drawing-<br>These are drawings that are created to represent the lay-out of a particular document. They include all the basic details of the project concerned clearly stating its purpose, style, size, color, character, and effect.<br><br><br>Life Drawing-<br>Drawings that result from direct or real observations are life drawings. Life drawing, also known as still-life drawing or figure drawing, portrays all the expressions that are viewed by the artist and captured in the picture. The human figure forms one of the most enduring themes in life drawing that is applied to portraiture, sculpture, medical illustration, cartooning and comic book illustration, and other fields.<br><br><br>Analytic Drawing-<br>Sketches that are created for clear understanding and representation of observations made by an artist are called analytic drawings. In simple words, analytic drawing is undertaken to divide observations into small parts for a better perspective.";
-    document.getElementById("img").src = "https://i.dlpng.com/static/png/6435482_preview.png";
 }
 }
 function scrolldoc() {
@@ -33,6 +32,6 @@ pointer++
 }
 function ins10() {
     document.getElementById("inspiration12345").style.display= "block";
-    window.scroll(0, 2550);
+    window.scroll(0, 55500);
     document.getElementById("linking").style.display= "block";
 }
