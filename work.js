@@ -1,4 +1,5 @@
 var contentid = "b";
+var newstate = false;
 var stated = ["Painting, Artist", "Mona Lisa, Leonardo da Vinci", "Last Supper, Leonardo da Vinci", "Starry Nights, Van Gogh"];
 var pointer = 0;
 var state = ["Famous%20Art.png", "https://psmag.com/.image/t_share/MTI3NTgyMzc4NTMyMzUwNTk1/monalisa-2times.jpg", "https://www.discoverwalks.com/blog/wp-content/uploads/2020/05/the-last-supper-restored-da-vinci_32x16-scaled-1280x720.jpg", "https://oceanmhs.org/wp-content/uploads/2018/01/starrynight.jpg"];
@@ -31,7 +32,19 @@ count++
 pointer++
 }
 function ins10() {
+    newstate = true;
     document.getElementById("inspiration12345").style.display= "block";
-    window.scroll(0, 55500);
+    window.scrollTo(0, 2600);
     document.getElementById("linking").style.display= "block";
+    document.getElementById("continue").style.display= "none";
+}
+function newcode() {
+    window.scroll(0, 1850);
+}
+function runcode2() {
+    window.scroll(0, 2660)
+        document.getElementById("MapBM").style.display= "block";
+        document.getElementById("button123").style.display= "block";
+        document.getElementById("button456").style.display= "block";
+
 }

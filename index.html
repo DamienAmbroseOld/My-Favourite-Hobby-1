@@ -3,31 +3,36 @@
 <head>
     <title>My Favourite Hobby</title>
     <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="work.js"></script>
 </head>
-
+<link rel= "stylesheet" >
 <body oncontextmenu="return false" ondragstart="return false">
     <div id="title">
         <ul id="tasks">
-            <li id="heading">MY FAVOURITE HOBBY</li>
-            <li id="one" class="option"><a href="#Home">Introduction</a></li>
-            <li id="one1" class="option">
-                <div onclick="change1()"><a href="#Content" onclick="change1">Content</a></div>
+            <li class="li"><a id="aaa" href="#Home">Introduction</a></li>
+            <li class="li">
+                <div onclick="change1()"><a href="#Fact" onclick="change1">Facts</a></div>
             </li>
-            <li id="one2" class="option"><div onclick="newcode()"><a href="#Importance">Importance</a></div></li>
+            <li class="li">
+                <div onclick="newcode()"><a>Importance</a></div>
+            </li>
+            <li class="li">
+                <div onclick="runcode2()"><a>Maps</a></div>
+            </li>
             <button id="photogallery" onclick=scrolldoc() class="option">Famous Art</button>
         </ul>
     </div>
     <section id="Home"></section>
     <span><img id="welcomebg" src=ArtworkBk.png></span>
-    <section id="Content"></section>
+    <section id="Fact"></section>
     <span><img id="profile" src=Me.jpg> </span>
     <h id="head">MY FAVOURITE HOBBY</h>
     <h id="subhead">DRAWING</h>
     <h id="q1">What is drawing?</h>
     <div>
         <br>
-        <section id="Famous Art"></section>
         <p id="details1">Drawing is a form of visual art in which one uses various drawing instruments to mark paper or another two-dimensional medium. Instruments include graphite pencils, pen and ink, various kinds of paints, inked brushes, colored pencils, crayons, charcoal, chalk, pastels, various kinds of erasers, markers, styluses, and various metals (such as silverpoint). Digital drawing is the act of using a computer to draw. Common methods of digital drawing include a stylus or finger on a touchscreen device, stylus- or finger-to-touchpad, or in some cases, a mouse. There are many digital art programs and devices.<br><br>
             A drawing instrument releases a small amount of material onto a surface, leaving a visible mark. The most common support for drawing is paper, although other materials, such as cardboard, wood, plastic, leather, canvas, and board, may be used. Temporary drawings may be made on a blackboard or whiteboard or indeed almost anything. The medium has been a popular and fundamental means of public expression throughout human history. It is one of the simplest and most efficient means of communicating visual ideas. The wide availability of drawing instruments makes drawing one of the most common artistic activities.<br><br>Today, drawing skills are recognised as an important developmental milestone in healthy children, coming both earlier and more naturally to us than reading and writing (Dosman, Andrews, and Goulden, 2012). This means drawing has evolved as an innate skill for visual communication that we all share.</p>
     </div>
@@ -50,17 +55,22 @@
     <h id="tutorial">WHY DRAWING IS IMPORTANT</h>
     <br>
     <br>
-    <br><br><section id="Importance"></section>
-    <iframe id= "v" class="videos1" width="450" height="205" src="https://www.youtube.com/embed/NEIiUs7eg7c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe class="videos1" width="450" height="205" src="https://www.youtube.com/embed/pOf5TKk-Swk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
-    <a id="hyperlink" href="https://courses.lumenlearning.com/boundless-arthistory/chapter/what-is-art/" target="_blank">For Further Reading Click Here</a>
+    <br><br>
 
+    <iframe id="v" class="videos1" width="450" height="205" src="https://www.youtube.com/embed/NEIiUs7eg7c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="videos1" width="450" height="205" src="https://www.youtube.com/embed/pOf5TKk-Swk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+    <a id="hyperlink" href="https://courses.lumenlearning.com/boundless-arthistory/chapter/what-is-art/" target="_blank">For Further Reading Click <u>Here</u></a>
+    <section id="Importance"></section>
     <br>
     <br><br>
     <div> <button id="continue" onclick="ins10()">CONTINUE</button> </div>
     <br><br><br><br><br><br><br><br>
-        <img src="Inspiration.png" id="inspiration12345">
-    <a id= "linking" href= "https://www.timelineindex.com/content/select/729/1023,729?pageNum_rsSite=8&totalRows_rsSite=129" target= "_blank">View All</a>
-</body>
-
-</html>
+    <img src="Inspiration.png" id="inspiration12345">
+    <a id="linking" href="https://www.timelineindex.com/content/select/729/1023,729?pageNum_rsSite=8&totalRows_rsSite=129" target="_blank">View All</a>
+    <br><br><br><br>
+    <div id="MapBM"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9930.64874907231!2d-0.1269566!3d51.5194133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2fb199016d5642a7!2sThe%20British%20Museum!5e0!3m2!1sen!2sin!4v1604244801431!5m2!1sen!2sin" width="1340" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+    <br>
+    <span><button id="button123" onclick="close()"></button></span><span><button id="button456" onclick="location.href='https://artsandculture.google.com/partner/the-british-museum'">TAKE TOUR</button></span>
+    <br><br>
+    <div id= "contact12345"><a href= "https://mail.google.com/mail/u/0/#inbox" target="_blank"><div></div><i class= "fa fa-envelope"></i>&nbsp;<h id= "email">ambrosh@gmail.com</h></a><div><a href= "https://www.facebook.com/roshni.ambrose" target= "_blank"><i class="fa fa-facebook-f"></i>&nbsp;<h>VisitMyFacebook</h></a></div><div><a href= "mailto:ambrosh@gmail.com?Subject=Hello"><i class="fa fa-adn"></i>&nbsp;<h>SayHiThroughEmail</h></a></div></div>
+</body></html>
